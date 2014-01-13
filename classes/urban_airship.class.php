@@ -596,8 +596,6 @@ class Urban_Airship extends Main
      * possible to change the lable of the action button (Button shows "View" 
      * if not defined). Additional the launch image can be defined.
      * 
-     * @link http://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008194-CH1-SW1
-     * 
      * @access public
      * 
      * @param string $alert_text The push message text

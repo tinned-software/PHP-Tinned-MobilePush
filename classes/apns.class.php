@@ -1343,7 +1343,7 @@ class APNS extends Main
         {
             // set error text and code
             $error_info = array('code' => 107, 'text' => 'Error connecting to API server.');
-            // TODO: moved from error to debug and added WARNING:, could be moved to warn() when implemented
+            // todo: moved from error to debug and added WARNING:, could be moved to warn() when implemented
             parent::debug("WARNING: ".$error_info['code'].': '.$error_info['text']);
             $this->last_error[] = $error_info;
             

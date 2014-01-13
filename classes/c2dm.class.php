@@ -656,8 +656,6 @@ class C2DM extends Main
      * possible to change the lable of the action button (Button shows "View" 
      * if not defined). Additional the launch image can be defined.
      * 
-     * @link http://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008194-CH1-SW1
-     * 
      * @access public
      * 
      * @param string $alert_text The push message text
@@ -1126,7 +1124,7 @@ class C2DM extends Main
             $gateway_error = $matches[1];
             // set error text and code
             $error_info = array('code' => 111, 'text' => 'API reported an Error: '.$gateway_error);
-            // TODO: moved from error to debug and added WARNING:, could be moved to warn() when implemented
+            // todo: moved from error to debug and added WARNING:, could be moved to warn() when implemented
             parent::debug("WARNING: ".$error_info['code'].': '.$error_info['text']);
             $this->last_error[] = $error_info;
             

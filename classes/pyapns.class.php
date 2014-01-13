@@ -20,9 +20,9 @@
 /**
  * Include required files
 **/
-include_once(dirname(__FILE__).'/../Submodules/PHP-Tinned-Core/classes/main.class.php');
-include_once(dirname(__FILE__).'/../Submodules/PHP-Tinned-Core/classes/xml_manager.class.php');
-include_once(dirname(__FILE__).'/../Submodules/PHP-Tinned-Core/functions/json_encode.php');
+include_once(dirname(__FILE__).'/../../PHP-Tinned-Core/classes/main.class.php');
+include_once(dirname(__FILE__).'/../../PHP-Tinned-Core/classes/xml_manager.class.php');
+include_once(dirname(__FILE__).'/../../PHP-Tinned-Core/functions/json_encode.php');
 
 
 /**

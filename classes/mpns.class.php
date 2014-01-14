@@ -1,16 +1,16 @@
 <?php
 /**
- * Microsoft Push Notification Service (MPNS)
- * 
- * This class provides an interface to the Microsoft Push Notification Service.
- * 
  * @author Tyler Ashton (tyler.ashton [at] tinned-software [dot] net)
- * @copyright Copyright (c) 2012
- * @version 0.8.15
+ * @copyright Copyright (c) 2012 - 2014
+ * @version 0.8.16
  * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
  * @package framework
  * @subpackage mobile-service
  *
+ * Microsoft Push Notification Service (MPNS)
+ * 
+ * This class provides an interface to the Microsoft Push Notification Service.
+ * 
  * @todo add proper check for header / payload length (1KB, 3KB)
 **/
 

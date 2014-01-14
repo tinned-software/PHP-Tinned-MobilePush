@@ -1,5 +1,13 @@
 <?php
 /**
+ * @author Apostolos Karakousis
+ * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
+ * @copyright Copyright (c) 2012 based on APNS & C2DM classes by Gerhard Steinbeis
+ * @version 0.0.13
+ * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
+ * @package framework
+ * @subpackage mobile-service
+ *
  * Apple Push Notification Class (Apple APNS via pyAPNS)
  * 
  * This class provides access to the Apple Push Notification Service (APNs).
@@ -7,13 +15,6 @@
  * The specifics of the supported devices are to be found at the service used
  * https://github.com/samuraisam/pyapns.
  * 
- * @author Apostolos Karakousis (akarakousis [at] tinned-software [dot] net)
- * @copyright Copyright (c) 2012 based on APNS & C2DM classes by Gerhard Steinbeis
- * @version 0.0.12
- * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
- * @package framework
- * @subpackage mobile-service
- *
 **/
 
 

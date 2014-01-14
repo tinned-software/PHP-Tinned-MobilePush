@@ -1,5 +1,12 @@
 <?php
 /**
+ * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
+ * @copyright Copyright (c) 2010 - 2014
+ * @version 2.0.4
+ * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
+ * @package framework
+ * @subpackage mobile-service
+ *
  * Android Push Notification Class (C2DM)
  * 
  * This class provides access to the Android Push Notification (C2DM)
@@ -7,13 +14,6 @@
  * operating system version 2.2 and higher. It requires the Android market to 
  * be installed as well.
  * 
- * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
- * @copyright Copyright (c) 2010
- * @version 2.0.3
- * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
- * @package framework
- * @subpackage mobile-service
- *
 **/
 
 

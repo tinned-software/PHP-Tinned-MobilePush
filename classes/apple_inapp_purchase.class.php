@@ -1,16 +1,16 @@
 <?php
 /**
+ * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
+ * @copyright Copyright (c) 2010 - 2014
+ * @version 0.2.1
+ * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
+ * @package framework
+ * @subpackage mobile-service
+ *
  * Apple InApp Purchase verification
  *
  * This class is used to verify apples In App purchase. The recipient ID 
  * receidved from the apple device will be verified.
- *
- * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
- * @copyright Copyright (c) 2010
- * @version 0.2
- * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
- * @package framework
- * @subpackage mobile-service
  *
  * @todo template todo item
  *

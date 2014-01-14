@@ -1,5 +1,12 @@
 <?php
 /**
+ * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
+ * @copyright Copyright (c) 2010
+ * @version 2.0.2
+ * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
+ * @package framework
+ * @subpackage mobile-service
+ * 
  * Android Push Notification Class (Urban Airship)
  * 
  * This class provides access to the third party Android Push Notification 
@@ -7,14 +14,6 @@
  * operating system version 1.5 and higher. Starting with Android 2.2 google 
  * Android offers a built in push service called C2DM.
  * 
- * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
- * @copyright Copyright (c) 2010
- * @version 2.0.1
- * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
- * @package framework
- * @subpackage mobile-service
- * 
- * @todo test to see if custom_payload works and arrives on the destination device
 **/
 
 

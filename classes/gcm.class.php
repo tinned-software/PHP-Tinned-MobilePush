@@ -1,5 +1,13 @@
 <?php
 /**
+ * @author Apostolos Karakousis
+ * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
+ * @copyright Copyright (c) 2012 - 2014
+ * @version 0.0.3
+ * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
+ * @package framework
+ * @subpackage mobile-service
+ *
  * Google Cloud Messaging Class (GCM)
  * 
  * This class provides access to the Google Cloud Messaging Push Notification (GCM)<br>
@@ -8,14 +16,6 @@
  * @link https://support.google.com/googleplay/android-developer/support/bin/answer.py?hl=en&answer=2663268
  * @link http://developer.android.com/guide/google/gcm/gs.html
  * 
- * 
- * @author Apostolos Karakousis
- * @copyright Copyright (c) 2012
- * @version 0.0.2
- * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
- * @package framework
- * @subpackage mobile-service
- *
 **/
 
 

@@ -1,5 +1,12 @@
 <?php
 /**
+ * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
+ * @copyright Copyright (c) 2010 - 2014
+ * @version 0.4.1
+ * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
+ * @package framework
+ * @subpackage mobile-service
+ *
  * Apple Push Notification Class (Apple APNS)
  * 
  * This class provides access to the Apple Push Notification Service (APNs). 
@@ -7,13 +14,6 @@
  * higher. Not all features are available in iOS 3.0. Full set of features is 
  * available with iOS 4.0 and higher.
  * 
- * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
- * @copyright Copyright (c) 2010
- * @version 0.4
- * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
- * @package framework
- * @subpackage mobile-service
- *
 **/
 
 

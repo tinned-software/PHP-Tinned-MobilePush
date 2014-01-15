@@ -3,7 +3,7 @@
  * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
  * @author Tyler Ashton (tdashton [at] gmail [dot] com)
  * @copyright Copyright (c) 2010 - 2014
- * @version 2.0.8
+ * @version 2.0.9
  * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
  * @package framework
  * @subpackage mobile-service
@@ -432,11 +432,11 @@ class APNS extends Main
         }
         else
         {
-            $text_len = mb_strlen($this->message_content['aps']['alert']);
+            $text_len = mb_strlen(json_encode($this->message_content['aps']['alert']));
             parent::debug2("Text-length (NL): $text_len");
         }
         
-        
+
         // get the payload size
         $payload_size = mb_strlen($this->_build_message_payload());
         // calculate the difference between max-size and payload-size (x chars bigger then allowed)

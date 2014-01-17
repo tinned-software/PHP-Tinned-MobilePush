@@ -24,9 +24,6 @@ class ApnsCoreTest extends PHPUnit_Framework_TestCase
 		$class = new APNS();
 		$this->assertInstanceOf('APNS', $class, 'object does not report to be an APNS class');
 		$this->assertInstanceOf('Mobile_Push', $class, 'object does not report to be a Mobile_Push interface');
-	
-		ereg_split();
-
 	}
 
 

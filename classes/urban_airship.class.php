@@ -56,7 +56,7 @@ include_once(dirname(__FILE__).'/../../PHP-Tinned-Core/functions/json_encode.php
  * @subpackage mobile-service
  * 
 **/
-class Urban_Airship extends Main
+class Urban_Airship extends Main implements Mobile_Push
 {
     ////////////////////////////////////////////////////////////////////////////
     // PROPERTIES of the class

@@ -19,10 +19,12 @@
 **/
 
 
+
 /**
  * Include required files
 **/
 include_once(dirname(__FILE__).'/../../PHP-Tinned-Core/classes/main.class.php');
+include_once(dirname(__FILE__).'/mobile_push.interface.php');
 
 
 
@@ -57,7 +59,7 @@ include_once(dirname(__FILE__).'/../../PHP-Tinned-Core/classes/main.class.php');
  * @subpackage mobile-service
  * 
 **/
-class GCM extends Main
+class GCM extends Main implements Mobile_Push
 {
     ////////////////////////////////////////////////////////////////////////////
     // PROPERTIES of the class

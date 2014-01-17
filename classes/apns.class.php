@@ -18,11 +18,13 @@
 **/
 
 
+
 /**
  * Include required files
 **/
 include_once(dirname(__FILE__).'/../../PHP-Tinned-Core/classes/main.class.php');
 include_once(dirname(__FILE__).'/../../PHP-Tinned-Core/functions/json_encode.php');
+include_once(dirname(__FILE__).'/mobile_push.interface.php');
 
 
 
@@ -57,7 +59,7 @@ include_once(dirname(__FILE__).'/../../PHP-Tinned-Core/functions/json_encode.php
  * @subpackage mobile-service
  * 
 **/
-class APNS extends Main
+class APNS extends Main implements Mobile_Push
 {
     ////////////////////////////////////////////////////////////////////////////
     // CONSTANTS of the class
@@ -238,20 +240,20 @@ class APNS extends Main
      * This method is used to Set the API credentials to interact with the 
      * service. The $type parameter can be "production" or "developer".
      * The $file_path is used to set the API certificate.
-     * The $unused_parameter is not used in this class. It is available for 
+     * The $parameter is not used in this class. It is available for 
      * compatibility mode.
      * 
      * @access public
      * 
      * @param string $type The type of certificate (production, developer)
      * @param string $certificate_file The path and file name to the certificate file
-     * @param string $unused_parameter1 A unused parameter for compatibility
-     * @param string $unused_parameter2 A unused parameter for compatibility
+     * @param string $parameter1 A unused parameter for compatibility
+     * @param string $parameter2 A unused parameter for compatibility
      * @return boolean TRUE is returned on success and FALSE otherwhise
     **/
-    public function set_api_credentials($type, $certificate_file, $unused_parameter1 = NULL, $unused_parameter2 = NULL)
+    public function set_api_credentials($type, $certificate_file, $parameter1 = NULL, $parameter2 = NULL)
     {
-        parent::debug2(__FUNCTION__.' called with type='.$type.', unused_parameter1='.$unused_parameter1.', unused_parameter2='.$unused_parameter2);
+        parent::debug2(__FUNCTION__.' called with type='.$type.', parameter1='.$parameter1.', parameter2='.$parameter2);
         
         // check the type
         if($type === 'production' || $type === 'developer')

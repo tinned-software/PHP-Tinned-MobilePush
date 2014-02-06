@@ -2,7 +2,7 @@
 /**
  * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
  * @copyright Copyright (c) 2010 - 2014
- * @version 0.4.1
+ * @version 0.4.2
  * @license http://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3
  * @package framework
  * @subpackage mobile-service
@@ -89,7 +89,7 @@ class APNS_Feedback extends Main
     private $token_binary_length        = 2;
     
     // variable to store the feedback entries
-    private $feedback_list              = NULL;
+    private $feedback_list              = array();
     private $feedback_current_item      = NULL;
     
     
@@ -266,12 +266,20 @@ class APNS_Feedback extends Main
     
     
     /**
-     * Receive feedback Informations
+     * Receive feedback Information
      * 
      * This method is used to receive feedback informations from the API server.
      * The method returns the complete list as well as it saves the list to the
      * class. The items can be retrieved one by one using the class method 
      * get_feedback_entry().
+     *
+     * The method returns an array of arrays, as shown below: 
+     * <pre>
+     *  array(
+     *      array('timestamp' => 123, 'tokenLength' => 32, 'deviceToken' => ''),
+     *      ...
+     *  );
+     * </pre>
      * 
      * @see get_feedback_entry()
      * @link http://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingWIthAPS/CommunicatingWIthAPS.html#//apple_ref/doc/uid/TP40008194-CH101-SW1

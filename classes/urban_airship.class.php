@@ -51,7 +51,7 @@ include_once(dirname(__FILE__).'/../../PHP-Tinned-Core/functions/json_encode.php
  *    201 ... Push Gateway reports that the device is no longer active<br>
  * 
  * 
- * 
+ * @deprecated not been tested with newer urban airship interface..
  * @package framework
  * @subpackage mobile-service
  * 

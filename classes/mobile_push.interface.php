@@ -16,6 +16,10 @@
 interface Mobile_Push
 {
 
+    const ERR_BAD_SYSTEM_TYPE = 101;
+    // ...
+    /** @todo add constants for the error codes here */
+
     /**
      * Set the API credentials
      *

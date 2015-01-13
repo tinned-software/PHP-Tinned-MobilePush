@@ -52,6 +52,7 @@ include_once(dirname(__FILE__).'/mobile_push.interface.php');
  * 
  * 
  * 
+ * @deprecated use GCM class instead
  * @package framework
  * @subpackage mobile-service
  * 

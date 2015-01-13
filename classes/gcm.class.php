@@ -1,6 +1,6 @@
 <?php
 /**
- * @author Apostolos Karakousis
+ * @author Tyler Ashton
  * @author Gerhard Steinbeis (info [at] tinned-software [dot] net)
  * @copyright Copyright (c) 2012 - 2014
  * @version 0.0.3
@@ -59,7 +59,7 @@ include_once(dirname(__FILE__).'/mobile_push.interface.php');
  * @subpackage mobile-service
  * 
 **/
-class GCM extends Main implements Mobile_Push
+class GCM extends Main implements Push_Interface
 {
     ////////////////////////////////////////////////////////////////////////////
     // PROPERTIES of the class
